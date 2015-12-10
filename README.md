@@ -27,7 +27,7 @@ class IndexController extends BaseController
 
 ## function
 * 宣告 function 一定要給 visibility: `public` or `private` or `protected`
-* function 名稱採用_小寫開始的駝峰命名法_
+* function 名稱採用__小寫開始的駝峰命名法__
 * function 的各個變數以 `, ` 隔開，注意逗號後要空一格
 * 宣告 function 的大括號 `{` 要在宣告的下一行
 * function 結束的大括號 `}` 要在程式本體的下一行
