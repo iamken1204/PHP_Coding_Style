@@ -98,3 +98,32 @@ switch ($target) {
 }
 ```
 
+## Example
+```php
+<?php
+namespace app\controllers\index;
+
+use vendorA\helpers\ArrayHelper;
+use vendorB\models\Post;
+use vendroC\base\BaseController;
+
+class IndexController extends BaseController
+{
+    public $name = 'index_page';
+
+    public function actionIndex($id = 0)
+    {
+        if (empty($id)) {
+            $post = new Post;
+        } else {
+            $post = Post::findOne($id);
+        }
+
+        return $this->render('view_index', [
+            'post' => $post,
+            'pageName' => $this->name
+        ]);
+    }
+}
+
+```
