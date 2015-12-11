@@ -5,7 +5,7 @@
 * 如果該檔是純 PHP 檔，省略結尾的 `?>`
 * PHP 的縮排都使用__四個空格__
 * 在所有檔案最下方留一行空行   
-`<?= $frogyName ?>` = `<?php echo $frogyName; ?>`
+`<?= $frogyName ?>` 意同 `<?php echo $frogyName; ?>`
 
 ## class
 * `namespace` & `use` 下面要空一行
