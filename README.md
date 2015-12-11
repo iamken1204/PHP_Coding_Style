@@ -101,11 +101,6 @@ switch ($target) {
 ## Example
 ```php
 <?php
-
-/**
- * ...
- */
-
 namespace app\controllers\index;
 
 use vendorA\helpers\ArrayHelper;
