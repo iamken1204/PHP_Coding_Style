@@ -107,6 +107,7 @@ use vendorB\models\Post;
 use vendroC\base\BaseController;
 
 /**
+ * app/controllers/index/IndexController.php
  * ...
  */
 class IndexController extends BaseController
