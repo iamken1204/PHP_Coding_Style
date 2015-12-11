@@ -142,7 +142,7 @@ class IndexController extends BaseController
 ```
 
 ## Sublime text 相關
-* 到 Sublime Text -> Preferences -> Setting - User 加入以下設定：
+* 到 Sublime Text -> Preferences -> Settings - User 加入以下設定：
 ```json
 {
    "ensure_newline_at_eof_on_save": true,
