@@ -101,16 +101,31 @@ switch ($target) {
 ## Example
 ```php
 <?php
+
+/**
+ * ...
+ */
+
 namespace app\controllers\index;
 
 use vendorA\helpers\ArrayHelper;
 use vendorB\models\Post;
 use vendroC\base\BaseController;
 
+/**
+ * ...
+ */
 class IndexController extends BaseController
 {
+    /**
+     * @var $name string ...
+     */
     public $name = 'index_page';
 
+    /**
+     * This function is for ....
+     * ...
+     */
     public function actionIndex($id = 0)
     {
         if (empty($id)) {
