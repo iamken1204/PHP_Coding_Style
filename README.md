@@ -13,7 +13,6 @@
 * 設定 property 一定要給 visibility: `public` or `private` or `protected`
 ```php
 <?php
-
 namespace app\controllers;
 
 use vendro\components\BaseController;
