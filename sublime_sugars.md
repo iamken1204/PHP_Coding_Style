@@ -5,7 +5,6 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"create_window_at_startup": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -61,7 +60,6 @@
 		120
 	],
 	"show_encoding": true,
-	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
