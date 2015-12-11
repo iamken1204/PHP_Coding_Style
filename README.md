@@ -33,7 +33,7 @@ class IndexController extends BaseController
 * 宣告 function 的大括號 `{` 要在宣告的下一行
 * function 結束的大括號 `}` 要在程式本體的下一行
 ```php
-public function actionIndex($int1, $int2, $str = 'blabla')
+public function actionIndex($int1, $int2, $str='blabla')
 {
     // ...
 }
@@ -68,7 +68,7 @@ $yearEndBonus = null;
 ```php
 if ($access) {
     // ...
-} elseif ($name = 'frogy') {
+} elseif ($name='frogy') {
     // ...
 } else {
     // ...
@@ -124,7 +124,7 @@ class IndexController extends BaseController
      * @param $id int ...
      * @return ...
      */
-    public function actionIndex($id = 0)
+    public function actionIndex($id=0)
     {
         if (empty($id)) {
             $post = new Post;
