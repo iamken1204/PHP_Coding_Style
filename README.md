@@ -140,3 +140,14 @@ class IndexController extends BaseController
 }
 
 ```
+
+## Sublime text 相關
+* 到 Sublime Text -> Preferences -> Setting - User 加入以下設定：
+```json
+{
+   "ensure_newline_at_eof_on_save": true,
+   "translate_tabs_to_spaces": true,
+   "trim_trailing_white_space_on_save": true
+}
+```
+* [Comment 輔助套件 DocBlockr](https://packagecontrol.io/packages/DocBlockr)
